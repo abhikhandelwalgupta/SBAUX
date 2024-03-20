@@ -1,3 +1,4 @@
+import Footer from "./components/coman/Footer"
 import Navbar from "./components/coman/Navbar"
 import About from "./pages/About"
 import Home from "./pages/Home"
@@ -16,7 +17,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        
+        <Footer />
       </div>
 
 
