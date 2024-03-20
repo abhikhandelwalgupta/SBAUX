@@ -1,5 +1,4 @@
 
-import Footer from "../components/coman/Footer"
 import HeroSection from "../components/coman/Hero"
 
 const Home = () => {
@@ -43,7 +42,7 @@ const Home = () => {
                 <div className="min-h-[100px]"></div>
 
                 {/* section 3 */}
-                <Footer />
+               
             </div>
 
         </>

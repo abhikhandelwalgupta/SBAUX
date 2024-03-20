@@ -20,7 +20,7 @@ const About = () => {
                     <img src={about1} className="w-[100vw] h-[50vh]" alt="" />
                 </div>
 
-                <Footer />
+
             </div>
 
         </>
