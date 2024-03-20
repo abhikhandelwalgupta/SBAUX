@@ -1,5 +1,3 @@
-import Footer from "../components/coman/Footer"
-
 
 const About = () => {
     return (
@@ -11,7 +9,7 @@ const About = () => {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui dolores dicta quae quibusdam reprehenderit odio praesentium neque ducimus et quasi maiores vero dolore, nobis aspernatur necessitatibus fugiat beatae ipsa.</p>
                 </div>
 
-                <Footer />
+               
             </div>
 
         </>
