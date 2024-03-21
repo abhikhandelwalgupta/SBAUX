@@ -3,9 +3,8 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
         <>
-            <div className="bg-black
-              text-richblack-400">
-                <div className=" w-11/12 max-w-maxContent flex text-white leading-4  py-14 items-center gap-3 mt-4 mx-auto justify-between font-inter">
+            <div className="bg-jetcolor text-richblack-400">
+                <div className=" w-11/12 max-w-maxContent flex text-white leading-4  py-14 items-center gap-3 mx-auto justify-between font-inter">
                     <div className=" flex font-bold text-white  flex-wrap w-11/12 max-w-maxContent mx-auto justify-between p-3 md:flex-row flex-col md:space-y-0 space-y-12">
                         <div className="flex md:flex-row flex-row md:w-[50%] justify-around">
                             <div className="md:w-[50%] w-[50%]">

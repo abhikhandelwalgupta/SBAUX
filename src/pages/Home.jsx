@@ -1,4 +1,5 @@
 
+import Footer from "../components/coman/Footer"
 import HeroSection from "../components/coman/Hero"
 
 const Home = () => {
