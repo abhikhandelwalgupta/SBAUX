@@ -7,14 +7,27 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
+    const [scrollY, setScrollY] = useState(false);
+
+    window.addEventListener('scroll', function () {
+        let scrollPosition = window.scrollY;
+        if (scrollPosition >= 100) {
+            setScrollY(true)
+        } else {
+            setScrollY(false)
+        }
+    });
+
+
     return (
         <>
-            <div className={`flex h-14 items-center z-[9999] absolute w-full bg-transparent  justify-center bg-richblack-800 border-b-richblack-700 } transition-all duration-200`}>
+            <div className={`flex h-14 items-center z-[9999] fixed w-full ${scrollY ? ' bg-KittenWhite ' : 'bg-transparent'}  justify-center  border-b-richblack-700 } transition-all duration-200`}>
                 <div className={` w-11/12 max-w-maxContent items-center  justify-between  p-4 md:flex  max-container ${open ? "hidden" : "flex"}`}>
-                    <nav className="flex font-bold text-white  flex-wrap w-11/12 max-w-maxContent mx-auto justify-between p-3">
+                    <nav className={`flex font-bold  flex-wrap w-11/12 ${scrollY ? "text-jetcolor" : 'text-white'} max-w-maxContent mx-auto justify-between p-3`}>
                         <div>
                             <span className="text-2xl cursor-pointer font-bold">
                                 SBAUXI
+                                {console.log(scrollY)}
                             </span>
                         </div>
 
@@ -121,19 +134,23 @@ const Navbar = () => {
                                 </div>
                                 <ul className="gap-5 p-1.5 flex  text-black flex-col md:hidden mt-4 items-center  justify-center  w-full">
                                     <li>
-                                        <a href="">HOME</a>
+                                        <Link to="/" >HOME</Link>
                                     </li>
                                     <li>
-                                        <a href="">ABOUT</a>
+
+                                        <Link to="/About" >ABOUT</Link>
                                     </li>
                                     <li>
-                                        <a href="">SERVICE</a>
+                                        <Link to="/" >SERVICE</Link>
+
                                     </li>
                                     <li>
-                                        <a href="">PRODECT</a>
+                                        <Link to="/" >PRODECT</Link>
+
                                     </li>
                                     <li>
-                                        <a href="">CONTACT</a>
+                                        <Link to="/" >CONTACT</Link>
+
                                     </li>
                                 </ul>
                             </div>
