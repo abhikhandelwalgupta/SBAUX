@@ -15,6 +15,10 @@ export default {
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
+      whitesmoke: "#f5f5f5",
+      vanillaWhite: "#f3e5ab",
+      KittenWhite: "#F8F8FF",
+      jetcolor: "#343434",
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",
@@ -157,7 +161,8 @@ export default {
         700: "#2E4210",
         800: "#22310C",
         900: "#172108",
-      }
+      },
+
     },
     extend: {
       backgroundImage: {
