@@ -1,17 +1,18 @@
 /* eslint-disable react/prop-types */
 
-const SliderContent = ({ img ,heading, content }) => {
-    
+const SliderContent = ({ img, heading, content }) => {
+
     return (
         <>
             <div
                 slot="container-start"
                 className="parallax-bg h-full"
                 style={{
-                    'backgroundImage':`url(${img})`,
-                    'backgroundPosition' :'center',
-                    'backgroundSize' :'cover',
-                    
+                    'backgroundImage': `  url(${img})`,
+                    'backgroundPosition': 'center',
+                    'backgroundSize': 'cover',
+                    filter: 'blur(5px)'
+
                 }}
                 data-swiper-parallax="-23%"
             ></div>
