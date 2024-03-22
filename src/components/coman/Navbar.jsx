@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`flex h-14 items-center z-[9999] fixed w-full ${scrollY ? ' bg-KittenWhite ' : 'bg-transparent'}  justify-center  border-b-richblack-700 } transition-all duration-200`}>
+            <div className={`flex h-14 items-center border-b z-[9999] fixed w-full ${scrollY ? ' bg-KittenWhite ' : 'bg-transparent'}  justify-center  border-b-richblack-700 } transition-all duration-200`}>
                 <div className={` w-11/12 max-w-maxContent items-center  justify-between  p-4 md:flex  max-container ${open ? "hidden" : "flex"}`}>
                     <nav className={`flex font-bold  flex-wrap w-11/12 ${scrollY ? "text-jetcolor" : 'text-white'} max-w-maxContent mx-auto justify-between p-3`}>
                         <div>
