@@ -1,5 +1,8 @@
 
 import HeaderSection from "../components/coman/HeaderSection"
+import { IoIosChatboxes ,IoIosCall  } from "react-icons/io";
+import { BiWorld } from "react-icons/bi";
+
 const Contact = () => {
     return (
         <>
@@ -9,12 +12,17 @@ const Contact = () => {
                 <div className=" text-black w-11/12 mx-auto md:flex pt-20 pb-20 gap-6 items-start justify-center  ">
                     <div className="bg-richblack-800 text-whitesmoke rounded-xl md:p-5 md:m-10 box-content  ">
                         <div className="p-5">
-                            <span className="md:text-2xl text-xl ">Chat on us</span>
+                            <span className="md:text-2xl text-xl flex items-center space-x-2 ">
+                                <IoIosChatboxes /> <h2>Chat on us</h2>
+                            </span>
                             <p className="text-base">Our friendly team is here to help. <br />
                                 info@studynotion.com</p>
                         </div>
                         <div className="p-5">
-                            <span className="md:text-2xl text-xl ">Visit us</span>
+                            <span className="md:text-2xl text-xl flex items-center space-x-2 ">
+                                <BiWorld />
+                                <h2> Visit us</h2>
+                            </span>
                             <p className="text-base">
                                 Come and say hello at our office HQ. <br />
                                 Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, <br />
@@ -22,7 +30,7 @@ const Contact = () => {
                             </p>
                         </div>
                         <div className="p-5">
-                            <span className="md:text-2xl text-xl ">Call us</span>
+                            <span className="md:text-2xl text-xl flex items-center space-x-2"><IoIosCall /> <h2>Call us</h2></span>
                             <p className="text-base">
                                 Mon - Fri From 8am to 5pm <br />
                                 +123 456 7869
@@ -73,8 +81,10 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-
                 </div >
+            </div>
+            <div className="w-full md:px-0 px-2 md:pr-0 pr-6 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14685.382598502008!2d72.66050861243023!3d23.04778616149248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86d53c2ed683%3A0x161958a4f45e809a!2sNikol%2C%20Ahmedabad%2C%20Gujarat%20380038!5e0!3m2!1sen!2sin!4v1711132739534!5m2!1sen!2sin" width="100%" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
 

@@ -11,9 +11,10 @@ import 'swiper/css/navigation';
 import { Parallax, Pagination, Navigation, Autoplay } from 'swiper/modules';
 import SliderContent from './SliderContent';
 
-import image1 from "../../assets/img-1.jpg"
+import image1 from "../../assets/maxresdefault.jpg"
 import mobile_image from "../../assets/img-2.jpg"
 import img3 from "../../assets/img-3.jpeg"
+
 
 const HeroSection = () => {
 
