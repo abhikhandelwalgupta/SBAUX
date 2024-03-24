@@ -1,19 +1,17 @@
 import Testimonial from "../components/Testimonial"
 import HeroSection from "../components/coman/Hero"
-import ScrollDirection from "../components/coman/ScrollDirection "
+
 import { HiAcademicCap } from "react-icons/hi";
-import image1 from "../assets/maxresdefault.jpg"
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+import chVideo from "../assets/ch.mp4"
 const Home = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1
-    };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1
+    // };
     return (
         <>
             <div className="relative w-full h-full">
@@ -64,14 +62,30 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div className="bg-black">
-                <ScrollDirection />
+                <div className="w-full h-full bg-whitesmoke">
+                    <div className="flex justify-center items-center  py-10">
+                        <h1 className="text-4xl font-bold ">
+                           Elemental Extravaganza
+                        </h1>
+                    </div>
+
+                    <div className=" flex justify-center items-center py-8">
+                        <video className=" w-[60%]  rounded-3xl" controls>
+                        <source src={chVideo} type="video/mp4" />
+
+                        </video>
+                    </div>
+
+
                 </div>
+                {/* <div className="bg-black">
+                <ScrollDirection />
+                </div> */}
 
                 {/* section 3 */}
 
 
-                <div className="w-[100%] bg-richblack-800    md:flex justify-center items-center ">
+                {/* <div className="w-[100%] bg-richblack-800    md:flex justify-center items-center ">
                     <div className="md:w-11/12 md:h-[100%] md:my-auto pt-24 w-full h-[100%] text-white  py-20 mx-auto  my-auto  gap-6 flex flex-col justify-center items-center text-center ">
                         <h1 className="md:text-4xl font-bold flex-2xl ">Our Bussines Category</h1>
                         <div className="w-16 border -mt-5"></div>
@@ -80,11 +94,16 @@ const Home = () => {
                             <MedicalService heading={"Water Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} />
                             <MedicalService heading={"Textile Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} />
                             <MedicalService heading={"Paper Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} />
-                           
+
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
+            <section className="bg-whitesmoke">
+                <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                    <Testimonial />
+                </div>
+            </section>
 
         </>
     )
