@@ -1,5 +1,6 @@
+import Testimonial from "../components/Testimonial"
 import HeroSection from "../components/coman/Hero"
-import ScrollDirection from "../components/coman/ScrollDirection "
+//import ScrollDirection from "../components/coman/ScrollDirection "
 
 const Home = () => {
 
@@ -39,17 +40,27 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="min-h-[100px]"></div>
-                <div className=" w-full bg-bluegreen-700 h-full md:mt-20 p-8 flex flex-col justify-start items-start gap-8">
-                    <div className="text-bluegreen-25   text-justify flex items-start justify-start clearfix  ">
+                {/* <div className="min-h-[100px]"></div> */}
+                <div className=" flex items-center w-11/12 mx-auto">
+                    <h2> Elemental Extravaganza </h2>
+                    <video>
+                        <source></source>
+                    </video>
+                </div>
+                <div className=" w-full bg-bluegreen-700 h-full   md:mt-20 p-8 flex flex-col justify-start items-start gap-8">
+                    <div className="text-bluegreen-25  items-center  flex-col  w-11/12 mx-auto text-justify flex gap-4 justify-start clearfix  ">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui dolores dicta quae quibusdam reprehenderit odio praesentium neque ducimus et quasi maiores vero dolore, nobis aspernatur necessitatibus fugiat beatae ipsa.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui dolores dicta quae quibusdam reprehenderit odio praesentium neque ducimus et quasi maiores vero dolore, nobis aspernatur necessitatibus fugiat beatae ipsa.</p>
-                    </div>
-                    <button className="py-3 px-4 rounded-md bg-bluegreen-800 text-white">Read More</button>
-                </div>
-                <div className="bg-black">
-                <ScrollDirection />
-                </div>
+                        <button className="py-3 px-4 rounded-md bg-bluegreen-800 text-white">Read More</button>
 
+                    </div>
+                </div>
+                {/* <div className="bg-black">
+                <ScrollDirection />
+                </div> */}
+                <section className="bg-whitesmoke text-black  dark:bg-gray-900">
+                    <div className="max-w-screen-xl  px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                        <Testimonial />
+                    </div></section>
                 {/* section 3 */}
 
             </div>
