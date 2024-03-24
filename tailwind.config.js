@@ -168,8 +168,12 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/assets/imag.jpg')",
       },
-
-
+      gridTemplateColumns : {
+        'repeat' : 'repeat(4,1fr)',
+      },
+      gridAutoColumns : {
+        'auto' : '2fr'
+      }
     },
   },
   plugins: [],
