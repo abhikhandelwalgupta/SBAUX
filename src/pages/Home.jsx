@@ -1,5 +1,4 @@
-/* eslint-disable react/jsx-key */
-
+import Testimonial from "../components/Testimonial"
 import HeroSection from "../components/coman/Hero"
 import ScrollDirection from "../components/coman/ScrollDirection "
 import { HiAcademicCap } from "react-icons/hi";
@@ -51,46 +50,24 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="min-h-[100px]"></div>
-                <div className=" w-full bg-bluegreen-700 h-full md:mt-20 p-8 flex flex-col justify-start items-start gap-8">
-                    <div className="text-bluegreen-25   text-justify flex items-start justify-start clearfix  ">
+                {/* <div className="min-h-[100px]"></div> */}
+                <div className=" flex items-center w-11/12 mx-auto">
+                    <h2> Elemental Extravaganza </h2>
+                    <video>
+                        <source></source>
+                    </video>
+                </div>
+                <div className=" w-full bg-bluegreen-700 h-full   md:mt-20 p-8 flex flex-col justify-start items-start gap-8">
+                    <div className="text-bluegreen-25  items-center  flex-col  w-11/12 mx-auto text-justify flex gap-4 justify-start clearfix  ">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui dolores dicta quae quibusdam reprehenderit odio praesentium neque ducimus et quasi maiores vero dolore, nobis aspernatur necessitatibus fugiat beatae ipsa.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui dolores dicta quae quibusdam reprehenderit odio praesentium neque ducimus et quasi maiores vero dolore, nobis aspernatur necessitatibus fugiat beatae ipsa.</p>
+                        <button className="py-3 px-4 rounded-md bg-bluegreen-800 text-white">Read More</button>
+
                     </div>
-                    <button className="py-3 px-4 rounded-md bg-bluegreen-800 text-white">Read More</button>
+                </div>
+                <div className="bg-black">
+                <ScrollDirection />
                 </div>
 
-                {/* <div className="bg-richblack-800 relative">
-                    <div className="w-3/4 m-auto">
-                        <div className="pt-20">
-                            <Slider {...settings}>
-                                {reviews.map((d) => (
-                                    <div className="bg-white h-[400px]  text-black rounded-xl">
-                                        <div className="  rounded-t-xl flex gap-2 p-2 " >
-                                            <img src={image1} alt="" className="h-24 w-24 rounded-full " />
-
-                                            <div className="pl-1">
-                                                <p className="text-2xl pt-5 ">{d.name}</p>
-                                                <p className="text-lg">{d.location}</p>
-                                            </div>
-                                        </div>
-                                        <div className="flex flex-col justify-center items-center gap-4 p-4 ">
-                                            <svg className="h-8   text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor" />
-                                            </svg>
-                                            <p className="text-center ">"{d.text}"</p>
-                                            <button className="bg-richblack-800 text-white text-lg px-6 py-1">Read More</button>
-                                        </div>
-                                    </div>
-                                ))}
-                            </Slider>
-                        </div>
-                    </div>
-                </div> */}
-
-
-                {/* <div className="bg-black">
-                    <ScrollDirection />
-                </div> */}
                 {/* section 3 */}
 
 
