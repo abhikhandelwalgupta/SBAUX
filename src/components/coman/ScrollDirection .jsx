@@ -27,38 +27,38 @@ const ScrollDirection = () => {
     return (
         <section id="services" className="relative py-20  md:overflow-x-visible text-white" data-scroll-section>
             <div className='grid  auto-cols-auto grid-cols-repeat grid-flow-col gap-4 ' data-scroll-target="#services">
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
-                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
             </div>
 
 
             <div className='grid mt-20 auto-cols-auto grid-cols-repeat grid-flow-col gap-4 ' data-scroll-target="#services">
-                <div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div>
-                <div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div><div className='flex justify-center items-center'>
-                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" />
-                </div>
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
             </div>
         </section>
     );
