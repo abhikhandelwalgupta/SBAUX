@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className=" max-h-screen  w-[100vw] relative bg-fixed  scroll-smooth	  font-inter  min-h-screen    ">
+      <div className=" max-h-screen  min-w-[100vw] relative bg-fixed  scroll-smooth	  font-inter  min-h-screen    ">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

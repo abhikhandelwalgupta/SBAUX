@@ -51,12 +51,12 @@ const Home = () => {
                         </div>
                         <div className="flex gap-8">
                             <div className="flex gap-3 flex-col">
-                                <h2>1</h2>
+                                <h2>1 <span>.</span></h2>
                                 <h2>What We Do</h2>
                                 <p> Itaque qui dolores dicta quae quibusdam </p>
                             </div>
                             <div className="flex gap-3 flex-col">
-                                <h2>2</h2>
+                                <h2>2 <span>.</span></h2>
                                 <h2>What We Do</h2>
                                 <p> Itaque qui dolores dicta quae quibusdam </p>
                             </div>
@@ -64,12 +64,12 @@ const Home = () => {
                         <div className="flex gap-8">
                             <div className="flex gap-8">
                                 <div className="flex gap-3 flex-col">
-                                    <h2>1</h2>
+                                    <h2>1 <span>.</span></h2>
                                     <h2>What We Do</h2>
                                     <p> Itaque qui dolores dicta quae quibusdam </p>
                                 </div>
                                 <div className="flex gap-3 flex-col">
-                                    <h2>2</h2>
+                                    <h2>2 <span>.</span></h2>
                                     <h2>What We Do</h2>
                                     <p> Itaque qui dolores dicta quae quibusdam </p>
                                 </div>
@@ -88,12 +88,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="w-full h-full bg-whitesmoke">
-                    <div className="flex justify-center items-center  py-10">
-                        <h1 className="text-4xl font-bold ">
+                    <div className="flex justify-center items-center  md:py-10 py-6">
+                        <h1 className="md:text-4xl text-2xl font-bold ">
                             Elemental Extravaganza
                         </h1>
                     </div>
-                    <div className=" flex justify-center items-center py-8">
+                    <div className=" flex justify-center items-center md:py-8 py-4">
                         <video className=" w-[60%]  rounded-3xl" autoPlay loop muted>
                             <source src={chVideo} type="video/mp4" />
                         </video>
@@ -106,7 +106,7 @@ const Home = () => {
                 {/* section 3 */}
 
 
-                <div className="w-[100%] bg-richblack-800    md:flex justify-center items-center ">
+                {/* <div className="w-[100%] bg-richblack-800    md:flex justify-center items-center ">
                     <div className="md:w-11/12 md:h-[100%] md:my-auto pt-24 w-full h-[100%] text-white  py-20 mx-auto  my-auto  gap-6 flex flex-col justify-center items-center text-center ">
                         <h1 className="md:text-4xl font-bold flex-2xl ">What We Provide</h1>
                         <div className="w-16 border -mt-5"></div>
@@ -118,7 +118,7 @@ const Home = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <section className="bg-whitesmoke">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
