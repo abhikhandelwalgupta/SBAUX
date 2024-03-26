@@ -28,13 +28,13 @@ const Navbar = () => {
     return (
         <>
             <div className={`flex h-14 items-center  z-[9999] fixed w-full ${scrollY ? ' bg-KittenWhite ' : 'bg-transparent'}  justify-center   } transition-all duration-200`}>
-                <div className={` w-11/12 max-w-maxContent items-center  justify-between  p-4 md:flex  max-container ${open ? "hidden" : "flex"}`}>
+                <div className={` w-11/12 max-w-maxContent items-center  justify-between  xl:p-4  xl:flex  max-container ${open ? "hidden" : "flex"}`}>
                     <nav className={`flex font-bold  flex-wrap w-11/12 ${scrollY ? "text-jetcolor" : 'text-white'} max-w-maxContent mx-auto justify-between p-3`}>
                         <div>
                             <span className="text-2xl cursor-pointer font-bold">SBAUXI</span>
                         </div>
 
-                        <ul className="gap-5 p-1.5 md:flex flex-row  items-center justify-between  hidden ">
+                        <ul className="gap-5 p-1.5 md:flex xl:flex flex-row  items-center justify-between  xs:hidden sm:hidden  ">
                             {
                                 links.map((link, index) => {
                                     return (
@@ -46,7 +46,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </nav>
-                    <div className="md:hidden">
+                    <div className="md:hidden xl:hidden">
                         {
                             !open ? (
 
@@ -96,7 +96,7 @@ const Navbar = () => {
                 </div>
                 {
                     open && (
-                        <div className={`w-full max-w-maxContent pt-52   ${scrollY ? 'bg-whitesmoke' : 'bg-teagreen-800'} py-16  md:hidden flex flex-col`}>
+                        <div className={`w-full max-w-maxContent pt-52   ${scrollY ? 'bg-whitesmoke' : 'bg-whitesmoke'} py-16  md:hidden flex flex-col`}>
                             <div className=" mt-24 flex flex-col ">
                                 <div className={`flex flex-row font-bold justify-between w-11/12 mx-auto`}>
                                     <h2>SBAUXI</h2>
@@ -124,7 +124,7 @@ const Navbar = () => {
                                         </svg>
                                     </button>
                                 </div>
-                                <ul className="gap-5 p-1.5 flex  text-black flex-col md:hidden mt-4 items-center  justify-center  w-full">
+                                <ul className="gap-5 p-1.5 flex xl:hidden font-bold text-black flex-col md:hidden mt-4 items-center  justify-center  w-full">
                                     {
                                         links.map((link, index) => {
                                             return (
