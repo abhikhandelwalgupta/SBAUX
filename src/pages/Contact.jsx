@@ -1,16 +1,16 @@
 
 import HeaderSection from "../components/coman/HeaderSection"
-import { IoIosChatboxes ,IoIosCall  } from "react-icons/io";
+import { IoIosChatboxes, IoIosCall } from "react-icons/io";
 import { BiWorld } from "react-icons/bi";
 
 const Contact = () => {
     return (
         <>
 
-            <HeaderSection heading={"Contact US"} />
+            <HeaderSection heading={"Contact Us"} />
             <div className="bg-whitesmoke">
-                <div className=" text-black w-11/12 mx-auto md:flex pt-20 pb-20 gap-6 items-start justify-center  ">
-                    <div className="bg-richblack-800 text-whitesmoke rounded-xl md:p-5 md:m-10 box-content  ">
+                <div className=" text-black w-11/12 mx-auto md:flex pt-20 pb-20 gap-0 items-start justify-center  ">
+                    <div className="bg-richblack-800 text-whitesmoke rounded-xl md:p-5 md:mx-10 md:my-16  ">
                         <div className="p-5">
                             <span className="md:text-2xl text-xl flex items-center space-x-2 ">
                                 <IoIosChatboxes /> <h2>Chat on us</h2>
@@ -37,10 +37,10 @@ const Contact = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="md:p-5 py-4 md:mt-0 mt-4 border rounded-lg ">
+                    <div className="md:p-5  py-4 md:mt-0 mt-4 border rounded-lg ">
                         <div className="p-4">
-                            <span className="text-4xl">Got a Idea? We have got the skills. Lets team up</span>
-                            <p className="text-[#95d0a8]">Tell us more about yourself and what youre got in mind.</p>
+                            <span className="text-4xl">Let's Get Associated</span>
+                            {/* <p className="text-[#95d0a8]">Tell us more about yourself and what youre got in mind.</p> */}
                         </div>
 
                         <form className=" flex-wrap  bg-whitesmoke w-full md:gap-0 gap-4">
