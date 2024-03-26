@@ -110,12 +110,12 @@ const Home = () => {
                 </div>
                 <div className="w-full h-full bg-whitesmoke">
                     <div className="flex justify-center items-center  py-10">
-                        <h1 className="text-4xl font-bold ">
+                        <h1 className="md:text-4xl text-2xl font-bold ">
                             Elemental Extravaganza
                         </h1>
                     </div>
                     <div className=" flex justify-center items-center py-8">
-                        <video className=" w-[60%]  rounded-3xl" autoPlay loop muted>
+                        <video className=" md:w-[60%] md:px-0 px-6 rounded-2xl w-full" autoPlay loop muted>
                             <source src={chVideo} type="video/mp4" />
                         </video>
                     </div>

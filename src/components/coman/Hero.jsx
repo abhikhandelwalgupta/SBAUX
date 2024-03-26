@@ -42,13 +42,13 @@ const HeroSection = () => {
             >
 
                 <SwiperSlide>
-                    <SliderContent img={image1} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, accusantium commodi ratione. Assumenda amet temporibus error officia, optio, tempore voluptates fugiat doloribus id, laudantium labore!"} />
+                    <SliderContent img={image1} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SliderContent img={mobile_image} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, accusantium commodi ratione. Assumenda amet temporibus error officia, optio, tempore voluptates fugiat doloribus id, laudantium labore!"} />
+                    <SliderContent img={mobile_image} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SliderContent img={img3} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, accusantium commodi ratione. Assumenda amet temporibus error officia, optio, tempore voluptates fugiat doloribus id, laudantium labore!"} />
+                    <SliderContent img={img3} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
                 </SwiperSlide>
             </Swiper>
 
