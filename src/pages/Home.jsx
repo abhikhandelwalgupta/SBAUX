@@ -110,12 +110,12 @@ const Home = () => {
                 </div>
                 <div className="w-full h-full bg-whitesmoke">
                     <div className="flex justify-center items-center  py-10">
-                        <h1 className="text-4xl font-bold ">
+                        <h1 className="md:text-4xl text-2xl font-bold ">
                             Elemental Extravaganza
                         </h1>
                     </div>
                     <div className=" flex justify-center items-center py-8">
-                        <video className=" w-[60%]  rounded-3xl" autoPlay loop muted>
+                        <video className=" md:w-[60%] md:px-0 px-6 rounded-2xl w-full" autoPlay loop muted>
                             <source src={chVideo} type="video/mp4" />
                         </video>
                     </div>
@@ -131,8 +131,8 @@ const Home = () => {
                     <div className="md:w-11/12 md:h-[100%] md:my-auto pt-24 w-full h-[100%] text-white  py-20 mx-auto  my-auto  gap-6 flex flex-col justify-center items-center text-center ">
                         <h1 className="md:text-4xl font-bold flex-2xl ">What We Provide</h1>
                         <div className="w-16 border -mt-5"></div>
-                        <p className="md:text-xl text-xs w-[50%] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid provident sed.</p>
-                        <div className="mt-12 text-black flex gap-14">
+                        <p className="md:text-xl text-xs md:w-[50%] w-full md:px-0 px-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid provident sed.</p>
+                        <div className="mt-12 px-12 w-full md:w-10/12 items-center mx-auto  text-black flex md:flex-row flex-col  md:gap-14 gap-8">
                             <MedicalService heading={"Water Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} image={water} />
                             <MedicalService heading={"Textile Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} />
                             <MedicalService heading={"Paper Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} />
