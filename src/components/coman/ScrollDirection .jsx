@@ -1,12 +1,23 @@
 import { useEffect } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
-
+import about1 from "../../assets/about-1.jpg"
 const ScrollDirection = () => {
     useEffect(() => {
         const scroller = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-section]'),
             smooth: true,
             direction: 'horizontal',
+            mobile: {
+                getDirection: true,
+                direction: 'horizontal',
+                smooth: true
+            },
+            tablet: {
+                getDirection: true,
+                direction: 'horizontal',
+                smooth: true
+            },
+
 
         });
 
@@ -14,16 +25,40 @@ const ScrollDirection = () => {
     }, []);
 
     return (
-        <section id="services" className="relative py-60 bg-green-50 text-white" data-scroll-section>
-            <div className="">
-                <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="10" data-scroll-target="#services">
-                    <span className="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">Social Media — Email Marketing — Digital Advertising</span>
-                </div>
+        <section id="services" className="relative py-20  md:overflow-x-visible text-white" data-scroll-section>
+            <div className='grid  auto-cols-auto grid-cols-repeat grid-flow-col gap-4 ' data-scroll-target="#services">
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
+                <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" />
             </div>
-            <div className="   mt-40">
-                <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" data-scroll-target="#services">
-                    <span className="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">Web Development - Motion Design - Graphic Design</span>
-                </div>
+
+
+            <div className='grid mt-20 auto-cols-auto grid-cols-repeat grid-flow-col gap-4 ' data-scroll-target="#services">
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
+                    <img src={about1} alt="" className="image-style" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.3" />
+               
             </div>
         </section>
     );
