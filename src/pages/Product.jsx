@@ -29,8 +29,8 @@ const Product = () => {
                     </div>
                 </div>
 
-                <div className="w-full bg-richblack-800 ">
-                    <div className=" flex flex-col items-center gap-8 mx-auto w-11/12 py-12 justify-center  text-white ">
+                <div className="w-full bg-white">
+                    <div className=" flex flex-col items-center gap-8 mx-auto w-11/12 py-12 justify-center  text-black ">
                         <h1 className="font-bold text-4xl">Our Product</h1>
                     </div>
                     <div className="flex flex-col w-full  ">

@@ -6,7 +6,7 @@ const ProductCard = ({ img, heading, pragraph, flexDirection }) => {
     return (
         <>
             <div className="flex  rounded-lg xl:justify-evenly xl:w-11/12 mx-auto ">
-                <div className={` text-whitesmoke xl:space-x-8 py-6 px-4 rounded-2xl border-spacing-6 flex   ${flexDirection}`}>
+                <div className={` text-black xl:space-x-8 py-6 px-4 rounded-2xl border-spacing-6 flex   ${flexDirection}`}>
                     <div className="pt-6 xl:w-[50%] w-[100%] flex justify-start flex-col">
                         <div className="text-start xl:w-[100%] mx-auto space-y-4">
                             <h1 className="font-bold xl:text-2xl text-xl">{heading}</h1>

@@ -22,7 +22,8 @@ const Testimonial = () => {
                 style={{
                     '--swiper-navigation-color': '#000',
                     '--swiper-pagination-color': '#000',
-                    '--swiper-height': '1vh'
+                    '--swiper-height': '1vh',
+                    '--swiper-navigation-size': '32px'
                 }}
 
                 speed={600}
