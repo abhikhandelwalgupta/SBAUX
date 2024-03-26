@@ -1,9 +1,10 @@
 import Testimonial from "../components/Testimonial"
 import HeroSection from "../components/coman/Hero"
 import water from "../assets/water.png"
-
-
+import image1 from "../assets/product-1.jpg"
+import img2 from "../assets/img-2.jpg"
 import chVideo from "../assets/ch.mp4"
+import img3 from "../assets/img-3.jpeg"
 import MedicalService from "../components/coman/home/MedicalService"
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                 </div>
                 {/* Section About us */}
 
-                <div className="flex min-h-[100%] w-11/12 mx-auto py-12 md:mt-12 items-center justify-center flex-col">
+                {/* <div className="flex min-h-[100%] w-11/12 mx-auto py-12 md:mt-12 items-center justify-center flex-col">
                     <h2 className="font-bold text-4xl">About us</h2>
                     <div className="flex md:flex-row flex-col items-center  w-full gap-8 justify-center">
                         <div className="md:w-[50%] w-full h-full md:mt-20 p-8 rounded-md flex flex-col justify-start items-start gap-8">
@@ -41,43 +42,63 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="min-h-[100px]"></div> */}
-                <div className="w-full ">
-                    <div className="flex flex-col w-11/12 mx-auto gap-4"  >
-                        <div className="flex flex-col gap-2">
-                            <h2>About Us.</h2>
+                <div className="w-11/12 mx-auto h-full flex flex-col md:flex-row p-10">
+                    <div className="flex flex-col md:w-[50%] w-full mx-auto gap-4 px-4"  >
+                        <div className="flex flex-col md:flex-row gap-2 py-5 my-4  ">
+                            <h2 className="text-4xl font-bold">About Us.</h2>
                             <p>Sysmbel of trust</p>
                         </div>
-                        <div className="flex gap-8">
-                            <div className="flex gap-3 flex-col">
-                                <h2>1</h2>
-                                <h2>What We Do</h2>
-                                <p> Itaque qui dolores dicta quae quibusdam </p>
+                        <div className="flex md:flex-row  flex-col gap-8 py-5 my-4 w-[100%]">
+                            <div className="flex gap-3 flex-col md:w-[50%]">
+                                <h2 className="text-4xl font-bold">1.</h2>
+                                <h2 className="text-xl font-bold">What We Do</h2>
+                                <p> Itaque qui dolores dicta quae quibusdam  </p>
                             </div>
-                            <div className="flex gap-3 flex-col">
-                                <h2>2</h2>
-                                <h2>What We Do</h2>
+                            <div className="flex flex-col gap-3  md:w-[50%]">
+                                <h2 className="text-4xl font-bold">2.</h2>
+                                <h2 className="text-xl font-bold">What We Do</h2>
                                 <p> Itaque qui dolores dicta quae quibusdam </p>
                             </div>
                         </div>
-                        <div className="flex gap-8">
-                            <div className="flex gap-8">
-                                <div className="flex gap-3 flex-col">
-                                    <h2>1</h2>
-                                    <h2>What We Do</h2>
-                                    <p> Itaque qui dolores dicta quae quibusdam </p>
-                                </div>
-                                <div className="flex gap-3 flex-col">
-                                    <h2>2</h2>
-                                    <h2>What We Do</h2>
-                                    <p> Itaque qui dolores dicta quae quibusdam </p>
-                                </div>
+                        <div className="flex md:flex-row  flex-col gap-8 py-5 my-4 w-[100%]">
+                            <div className="flex gap-3 flex-col md:w-[50%]">
+                                <h2 className="text-4xl font-bold">3.</h2>
+                                <h2 className="text-xl font-bold">What We Do</h2>
+                                <p> Itaque qui dolores dicta quae quibusdam </p>
+                            </div>
+                            <div className="flex gap-3 flex-col md:w-[50%]">
+                                <h2 className="text-4xl font-bold">4.</h2>
+                                <h2 className="text-xl font-bold">What We Do</h2>
+                                <p> Itaque qui dolores dicta quae quibusdam </p>
                             </div>
                         </div>
                     </div>
-                    <div>
-
+                    <div className="md:w-[50%] w-full h-[100%]  ">
+                        <div className="flex justify-end p-4 pr-14 w-[100%] h-[30%]">
+                            <div className="border px-5 py-1 mt-5 mr-10  bg-whitesmoke rounded shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                        <div className="mx-auto  flex justify-center md:w-full w-11/12 flex-row  gap-1 mt-10  ">
+                            <div className="flex flex-col  mx-auto md:w-[100%] w-[50%]">
+                                <div className="bg-cover bg-center bg-no-repeat md:h-64 md:w-64 md:ml-16">
+                                    <img src={image1} alt="" className="md:h-60 md:w-64 h-28 w-40 rounded-lg" />
+                                </div>
+                                <div className="bg-cover bg-center bg-no-repeat md:h-64 md:w-64 md:ml-16">
+                                    <img src={img2} alt="" className="md:h-48 md:w-64 rounded-lg" />
+                                </div>
+                            </div>
+                            <div className="flex flex-col md:w-full w-[50%]">
+                                <div className="bg-cover bg-center bg-no-repeat md:h-64 md:w-64 flex items-end pb-4 ">
+                                    <img src={img3} alt="" className="md:h-48 md:w-64 rounded-lg" />
+                                </div>
+                                <div className="bg-cover bg-center bg-no-repeat md:h-64 md:w-64">
+                                    <img src={image1} alt="" className="md:h-60 md:w-64 rounded-lg" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
