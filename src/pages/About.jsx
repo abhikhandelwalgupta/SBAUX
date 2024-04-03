@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-richblack-800 text-vanillaWhite  mx-auto h-full ">
+            <div className="bg-theamColor text-vanillaWhite  mx-auto h-full ">
                 <div className="flex container  xl:w-11/12 py-24 mx-auto xl:flex-row flex-col xl:gap-0 gap-8 items-center  ">
                     <div className="xl:w-[100%] w-full px-8  flex flex-col items-center justify-center">
                         <div className=" flex flex-col gap-4  justify-center items-center">

@@ -1,57 +1,25 @@
-// import Swiper core and required modules
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-
-// import required modules
-import { Parallax, Pagination, Navigation, Autoplay } from 'swiper/modules';
-import SliderContent from './SliderContent';
-
-import image1 from "../../assets/maxresdefault.jpg"
-import mobile_image from "../../assets/img-2.jpg"
-import img3 from "../../assets/img-3.jpeg"
+import { Link } from "react-router-dom";
+import video from "../../assets/ch.mp4"
 
 
 const HeroSection = () => {
 
-
     return (
         <>
-            <Swiper
-                style={{
-                    '--swiper-navigation-color': '#fff',
-                    '--swiper-pagination-color': '#fff',
-                }}
-                speed={600}
-                loop={true}
-                parallax={true}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                autoplay={{
-                    delay: 10000,
-                    disableOnInteraction: false,
-                }}
-                modules={[Parallax, Pagination, Navigation, Autoplay]}
-                className="mySwiper"
-            >
-
-                <SwiperSlide>
-                    <SliderContent img={image1} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SliderContent img={mobile_image} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SliderContent img={img3} heading={"heading"} content={"Lorem ipsum dolor, amet consectetur adipisicing elit. Ea ut tenetur eveniet deleniti nesciunt, "} />
-                </SwiperSlide>
-            </Swiper>
-
+            <div className="relative  h-[100%] w-[100%] top-0 bottom-0 z-[1] mix-blend-lighten "></div>
+            <video src={video} className="absolute sm:h-[100vh] xs:h-[100vh] w-[100%] top-0 bottom-0 left-0 right-0 object-cover" type="video/mp4" autoPlay loop muted ></video>
+            <div className="px-[1.5rem] text-white w-full max-h-max pt-[1rem]  h-[100vh] flex gap-12 flex-col items-stretch justify-center m-auto z-[100]">
+                <div className="absolute py-7 xl:left-16 space-y-4" >
+                    <div >
+                        <h1 className="font-bold text-5xl xs:text-2xl sm:text-2xl md:text-3xl" data-aos="zoom-in-up" >Welcome to SB AUXICHEM</h1>
+                        <p className="text-end text-xl xl:text-3xl font-medium" data-aos="zoom-in-up">SYMBOL OF TRUST</p>
+                    </div>
+                    <div className="flex  items-end justify-end gap-4">
+                        <Link to={"/Contact"} className="bg-theamColor px-6 hover:bg-richblack-800 py-2 rounded-md shadow float-end" data-aos="zoom-in-up">Contact US</Link>
+                        <Link className="bg-blue-800 px-6 hover:bg-richblack-800 py-2 rounded-md shadow float-end" data-aos="zoom-in-up">Download Catalog </Link>
+                    </div>
+                </div>
+            </div>
         </>
     );
 };

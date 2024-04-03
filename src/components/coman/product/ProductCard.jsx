@@ -2,11 +2,11 @@
 
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ img, heading, pragraph, flexDirection }) => {
+const ProductCard = ({ img, heading, pragraph, flexDirection, bgColor }) => {
     return (
         <>
-            <div className="flex  rounded-lg xl:justify-evenly xl:w-11/12 mx-auto ">
-                <div className={` text-black xl:space-x-8 py-6 px-4 rounded-2xl border-spacing-6 flex   ${flexDirection}`}>
+            <div className={`flex bg-${bgColor} xl:justify-between w-full  `} >
+                <div className={` text-black xl:space-x-8 py-6 px-4 w-11/12 mx-auto border-spacing-6 flex   ${flexDirection}`}>
                     <div className="pt-6 xl:w-[50%] w-[100%] flex justify-start flex-col">
                         <div className="text-start xl:w-[100%] mx-auto space-y-4">
                             <h1 className="font-bold xl:text-2xl text-xl">{heading}</h1>
@@ -22,8 +22,6 @@ const ProductCard = ({ img, heading, pragraph, flexDirection }) => {
                         <img src={img} alt="" className="xl:w-[80%] w-[100%] h-[100%]" />
                     </div>
                 </div>
-
-
             </div>
         </>
     )

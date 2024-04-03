@@ -19,6 +19,7 @@ export default {
       vanillaWhite: "#f3e5ab",
       KittenWhite: "#F8F8FF",
       jetcolor: "#343434",
+      theamColor : '#548174',
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",
@@ -185,7 +186,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/assets/imag.jpg')",
+        'hero-pattern': "  linear-gradient(rgba(0, 0.5, 0, 1.3),rgba(0, 0.5, 0, 0.5)), url('src/assets/whyChoose.jpg')",
       },
       maxWidth: {
         maxContent: "1260px",
