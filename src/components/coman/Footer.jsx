@@ -1,19 +1,19 @@
 // import { Link } from "react-router-dom"
 // import { links } from "../../links"
-import logo from "../../assets/logo-new.png"
+import logo from "../../assets/FINAL logo.png"
 import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
         <>
             <footer
-                className="bg-neutral-100  bg-richblack-800 text-white text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left py-12" >
+                className="bg-neutral-100  bg-black text-white text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left py-12" >
                 <div className="mx-auto py-10 text-center w-10/12  grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4  xl:grid-cols-4  md:text-center ">
                     <div className="">
                         <h6
                             className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-center">
                             <Link to={"/"}>
-                                <img src={logo} alt="" className="h-24 " />
+                                <img src={logo} alt="" className="h-16 " />
                             </Link>
                         </h6>
                         <p>

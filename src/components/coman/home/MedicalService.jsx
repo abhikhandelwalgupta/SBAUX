@@ -9,7 +9,7 @@ const MedicalService = ({ heading, pragraph, image, dataAos }) => {
                 <img src={image} alt="water logo" className=" h-[12rem] w-full absolute left-0  inline-block rounded-lg shadow-md" />
             </div>
             <div className="py-4 mt-8">
-                <h2 className="xl:text-2xl text-xl font-bold mb-4">{heading}</h2>
+                <h2 className="xl:text-2xl text-xl font-bold mb-4 text-theamColor">{heading}</h2>
                 <p className="text-gray-700 pb-8 px-2">
                     {pragraph}
                 </p>

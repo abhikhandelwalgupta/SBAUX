@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import video from "../../assets/ch.mp4"
-
+import video from "../../assets/ch-1.mp4"
+import { IoMdDownload } from "react-icons/io";
 
 const HeroSection = () => {
 
@@ -16,7 +16,8 @@ const HeroSection = () => {
                     </div>
                     <div className="flex  items-end justify-end gap-4">
                         <Link to={"/Contact"} className="bg-theamColor px-6 hover:bg-richblack-800 py-2 rounded-md shadow float-end" data-aos="zoom-in-up">Contact US</Link>
-                        <Link className="bg-blue-800 px-6 hover:bg-richblack-800 py-2 rounded-md shadow float-end" data-aos="zoom-in-up">Download Catalog </Link>
+                        <Link className="bg-theamColor px-6 hover:bg-richblack-800 py-2 rounded-md shadow float-end flex items-center
+                        gap-2" data-aos="zoom-in-up"><span><IoMdDownload /></span> Catalog </Link>
                     </div>
                 </div>
             </div>

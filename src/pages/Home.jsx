@@ -29,7 +29,7 @@ const Home = () => {
                 <AboutSection />
                 <div className="w-[100%] bg-theamColor relative   xl:flex justify-center items-center ">
                     <div className="xl:w-11/12 xl:h-[100%] xl:my-auto pt-24 w-full h-[100%] text-white  py-20 mx-auto  my-auto  gap-6 flex flex-col justify-center items-center text-center ">
-                        <h1 className="xl:text-4xl text-2xl font-bold flex-2xl ">What We Provide</h1>
+                        <h1 className="xl:text-4xl text-4xl font-bold flex-2xl ">What We Provide</h1>
                         <div className="w-16 border -mt-5"></div>
 
                         <div className="mt-12 px-12 w-full xl:w-10/12 items-center mx-auto  justify-center  text-black flex xl:flex-row flex-col md:flex-row  xl:gap-14 gap-8" >
@@ -40,13 +40,13 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-[100vw] relative   py-16 bg-hero-pattern bg-no-repeat   bg-cover object-center ">
+                <div className="w-[100vw] relative   py-16 bg-whitesmoke bg-no-repeat   bg-cover object-center ">
 
-                    <div className="xl:w-11/12 xl:h-[100%] xl:my-auto  w-full h-[100%]  text-whitesmoke   mx-auto  my-auto  gap-6 py-4  flex flex-col justify-center items-center text-center ">
-                        <h1 className="xl:text-4xl text-2xl font-extrabold flex-2xl" data-aos="zoom-in-up">Why Choose Us?</h1>
+                    <div className="xl:w-11/12 xl:h-[100%] xl:my-auto  w-full h-[100%]  text-black   mx-auto  my-auto  gap-6 py-4  flex flex-col justify-center items-center text-center ">
+                        <h1 className="text-4xl font-extrabold flex-2xl text-theamColor" data-aos="zoom-in-up">Why Choose Us?</h1>
                         <div className="w-16 border -mt-5"></div>
                     </div>
-                    <div className="w-[100%] flex xs:flex-col sm:flex-col sm:px-2 xs:px-2 xs:gap-0 justify-center  text-white   gap-6 px-10 pb-10 ">
+                    <div className="w-[100%] flex xs:flex-col sm:flex-col sm:px-2 xs:px-2 xs:gap-0 justify-center     gap-6 px-10 pb-10 ">
                         <div className="flex w-[50%] xs:w-[100%] sm:w-[100%] flex-col  ">
                             <AboutChoose heading={"Innvation at the code"} pragraph={"Our innovation is driven by the use of strong funding in research and development. This is the rule of thumb and description in our organisation. As a producer our manner is to apprehend the marketplace tendencies and the desires of our clients and attempt to fulfill any of them. We choice that we push the boundaries and invent answers that have not been seen earlier than."} dataAos={'zoom-in-up'} />
 
@@ -64,7 +64,7 @@ const Home = () => {
 
                 <div className="relative bg-theamColor py-16 flex flex-col gap-8" >
                     <div className="flex justify-center w-11/12 mx-auto">
-                        <h1 className="text-[3rem] xs:text-[1.5rem] sm:text-[1.6rem] pb-[2rem] font-bold text-white text-center" >The four stages of a customer journey</h1>
+                        <h1 className="text-4xl pb-[2rem] font-bold text-white text-center" >The four stages of a customer journey</h1>
                     </div>
 
                     <div className="flex  xs:flex-col sm:flex-col gap-14 px-6 text-center w-11/12 mx-auto md:grid md:grid-cols-2  md:place-content-between lg:grid lg:grid-cols-2  lg:place-content-between">

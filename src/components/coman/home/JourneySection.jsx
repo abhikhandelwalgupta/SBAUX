@@ -5,7 +5,7 @@ const JourneySection = ({ image, heading, pragraph, dataAos }) => {
             <div className="flex justify-center items-center mx-auto rounded-[50%] relative h-36 w-36 bg-theamColor ">
                 <img src={image} alt="" className="w-[6rem] h-[8rem] bottom-0 absolute " /></div>
             <div className="text-cente  ">
-                <h1 className="text-[2rem] font-bold  rounded-md ">{heading}</h1>
+                <h1 className="text-[2rem] font-bold  rounded-md  text-theamColor">{heading}</h1>
                 <p className="text-[1rem] px-8 py-4 text-justify">{pragraph}</p>
             </div>
         </div>

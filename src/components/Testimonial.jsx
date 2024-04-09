@@ -18,7 +18,7 @@ const Testimonial = () => {
         <>
             <div>
 
-                <h2 className='text-2xl xl:text-4xl font-bold uppercase'>what client says</h2>
+                <h2 className='text-4xl font-bold uppercase text-theamColor'>what client says</h2>
                 <div className='flex items-center w-10 border justify-center mx-auto'></div>
                 <Swiper
                     style={{

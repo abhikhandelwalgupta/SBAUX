@@ -19,7 +19,12 @@ export default {
       vanillaWhite: "#f3e5ab",
       KittenWhite: "#F8F8FF",
       jetcolor: "#343434",
-      theamColor : '#548174',
+      theamColor : '#65C4A9',
+      theam : {
+        5 : '#548174',
+        10 : '#2D91A9',
+        25 : '#65C4A9'
+      },
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",

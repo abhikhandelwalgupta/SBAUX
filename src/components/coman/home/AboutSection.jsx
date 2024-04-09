@@ -16,8 +16,8 @@ const AboutSection = () => {
                         <img src={about} alt="" className="xl:w-[70%] h-full w-[100%] sm:h-full xs:w-[100%] xs:h-full " loading="lazy" />
                     </div>
                     <div className="xl:w-[50%] pl-4 w-[100%]">
-                        <h1 className="text-[26px] font-bold pb-4" data-aos="zoom-in-up">About Us</h1>
-                        <div className="xl:w-[80%]  w-[100%] pb-4">
+                        <h1 className="text-4xl font-bold pb-4 text-theamColor " data-aos="zoom-in-up">About Us</h1>
+                        <div className="xl:w-[80%]  w-[100%] pb-4 text-justify">
                             <span className=" text-[18px] font-bold " data-aos="zoom-in-up" >At Sb Auxichem, we offer a range of high-quality textile chemicals and auxiliaries that are designed to enhance the performance, quality, and sustainability of your textile products.</span>
                             <p className="text-[18px] pt-2 font-bold" data-aos="zoom-in-up">
                                 We prioritize quality at every stage of our manufacturing process, ensuring that from sourcing raw materials to the final product, strict quality control measures are adhered to. Our state-of-the-art facilities and advanced technology allow us to consistently deliver products that surpass industry standards.

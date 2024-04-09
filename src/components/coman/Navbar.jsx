@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
 import { links } from "../../links";
-import logo from "../../assets/logo-new.png"
+import logo from "../../assets/FINAL logo.png"
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     const [scrollY, setScrollY] = useState(false);
@@ -25,11 +25,11 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`flex h-20 items-center  z-[9999]  text-black  ${scrollY ? 'bg-whitesmoke' : 'bg-[#5bf3c816]'} ${scrollY && 'border-b'} fixed w-full justify-center transition-all duration-200`}>
+            <div className={`flex h-20 items-center  z-[9999]  text-black  ${scrollY ? 'bg-theam-25' : 'bg-[#5bf3c816]'} ${scrollY && 'border-b'} fixed w-full justify-center transition-all duration-200`}>
                 <div className={` w-11/12 max-w-maxContent    xl:flex  max-container ${open ? "hidden" : "flex"}`}>
                     <nav className={`flex font-bold  flex-wrap text-black w-full ${scrollY ? "text-jetcolor" : 'text-black'} max-w-maxContent  justify-between `}>
                         <Link to={"/"}>
-                            <img src={logo} alt="" className="h-24 " />
+                            <img src={logo} alt="" className="h-16 " />
                         </Link>
 
                         <ul className="gap-x-4 md:flex xl:flex flex-row  items-center justify-between  xs:hidden sm:hidden  ">
@@ -98,7 +98,7 @@ const Navbar = () => {
                             <div className=" mt-24 flex flex-col ">
                                 <div className={`flex flex-row  font-bold  justify-between  `}>
                                     <Link to={"/"}>
-                                        <img src={logo} alt="" className="h-24 " />
+                                        <img src={logo} alt="" className="h-16 " />
                                     </Link>
                                     <button
                                         type="button"
