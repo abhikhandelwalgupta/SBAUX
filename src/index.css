@@ -10,7 +10,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins'sans-serif;
 }
 
 
@@ -267,11 +267,12 @@ body {
 }
 
 .form-style {
-  @apply rounded-lg bg-richblack-800 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 
-  placeholder:text-richblack-400 focus:outline-none;
+  /* @apply rounded-lg bg-richblack-800 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder: text-richblack-400 focus:outline-none; */
+
+  @apply rounded-lg bg-theamColor p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50
 }
 
-.slick-slide > div {
+.slick-slide>div {
   margin: 0 20px;
   position: re;
 }
