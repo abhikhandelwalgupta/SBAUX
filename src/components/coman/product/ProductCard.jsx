@@ -15,9 +15,9 @@ const ProductCard = ({ img, heading, pragraph1, pragraph2, flexDirection, bgColo
                             <p className=" flex items-end text-[1.2rem] text-justify xl:w-[80%]"> {pragraph1}</p>
                             {/* <p className=" flex items-end text-[1.2rem] text-justify xl:w-[80%]"> {pragraph2}</p> */}
                         </div>
-                        <div className="flex py-4 ">
+                        {/* <div className="flex py-4 ">
                             <Link className="py-3 mt-5 px-4 rounded-md   bg-theamColor hover:bg-richblack-800 delay-200 text-white ">View More</Link>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="flex xl:w-[50%] mx-auto  rounded-xl pb-4  w-full">
                         <img src={img} alt="" className="xl:w-[85%] w-[100%] h-[100%] bg-center rounded-lg" />

@@ -1,21 +1,21 @@
-import Testimonial from "../components/Testimonial"
-import HeroSection from "../components/coman/Hero"
-import MedicalService from "../components/coman/home/MedicalService"
-import AboutSection from "../components/coman/home/AboutSection"
-import Water from "../assets/water-Photoroom.jpg";
-import textile from "../assets/textileChemicsl.jpg";
-import paper from "../assets/paperchem.jpg";
+import 'aos/dist/aos.css'
+
 import AboutChoose from "../components/coman/home/AboutChoose"
+import AboutSection from "../components/coman/home/AboutSection"
+import Aos from "aos";
+import HeroSection from "../components/coman/Hero"
 import JourneySection from "../components/coman/home/JourneySection"
+import { Link } from "react-router-dom";
+import MedicalService from "../components/coman/home/MedicalService"
+import Testimonial from "../components/Testimonial"
+import Water from "../assets/water-Photoroom.jpg";
 import journey1 from "../assets/journey-1.png"
 import journey2 from "../assets/journey-2.png"
 import journey3 from "../assets/journey-3.png"
 import journey4 from "../assets/journey-4.png"
-import { Link } from "react-router-dom";
-import Aos from "aos";
-import 'aos/dist/aos.css'
+import paper from "../assets/paperchem.jpg";
+import textile from "../assets/textileChemicsl.jpg";
 import { useEffect } from "react";
-
 
 const Home = () => {
     useEffect(() => {
@@ -33,9 +33,9 @@ const Home = () => {
                         <div className="w-16 border -mt-5"></div>
 
                         <div className="mt-12 px-12 w-full xl:w-10/12 items-center mx-auto  justify-center  text-black flex xl:flex-row flex-col md:flex-row  xl:gap-14 gap-8" >
-                            <MedicalService image={textile} heading={"Textile Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} dataAos={'zoom-in-up'} />
-                            <MedicalService image={Water} heading={"Water Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} dataAos={'zoom-in-up'} />
-                            <MedicalService image={paper} heading={"Paper Chemical"} pragraph={"incidunt. Voluptanaman khandelwal is a tes at cupiditate sapiente consequuntur nostrum!"} dataAos={'zoom-in-up'} />
+                            <MedicalService image={textile} heading={"Textile Chemical"} pragraph={"SB Auxichem  also offers a range of high-quality chemical auxiliaries for the textile industry"} dataAos={'zoom-in-up'} />
+                            <MedicalService image={Water} heading={"Water Chemical"} pragraph={"Water treatment chemicals, which reduce the dispersed oil content in the effluent water."} dataAos={'zoom-in-up'} />
+                            <MedicalService image={paper} heading={"Paper Chemical"} pragraph={"SB Auxichem help paper manufacturers modify the properties of paper."} dataAos={'zoom-in-up'} />
                         </div>
                     </div>
                 </div>
@@ -76,9 +76,9 @@ const Home = () => {
 
 
                 <section className="py-16 relative">
-                    <div className="max-w-screen-xl px-4 py-12  mx-auto text-center lg:py-16 lg:px-6">
+                    {/* <div className="max-w-screen-xl px-4 py-12  mx-auto text-center lg:py-16 lg:px-6">
                         <Testimonial />
-                    </div>
+                    </div> */}
                 </section>
 
                 <div className="mx-auto max-w-3xl px-4 bg-transparent relative sm:mt-32 sm:px-6  lg:px-8 -mb-12">

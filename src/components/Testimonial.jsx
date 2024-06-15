@@ -1,16 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import { Autoplay, Navigation, Pagination, Parallax } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import TestimonialContainer from './coman/home/TestimonialContainer';
+
+// Import Swiper styles
+
+
+
+
 
 // import required modules
-import { Parallax, Pagination, Navigation, Autoplay } from 'swiper/modules';
-import TestimonialContainer from './coman/home/TestimonialContainer';
+
+
 
 
 const Testimonial = () => {
@@ -28,7 +35,7 @@ const Testimonial = () => {
                         '--swiper-navigation-size': '32px'
                     }}
 
-                    speed={600}
+                    speed={4000}
                     loop={true}
                     parallax={true}
                     pagination={{
@@ -38,7 +45,7 @@ const Testimonial = () => {
                     slidesPerView={1}
                     spaceBetween={32}
                     autoplay={{
-                        delay: 2500,
+                        delay: 8000,
                         disableOnInteraction: false,
                     }}
                     modules={[Parallax, Pagination, Navigation, Autoplay]}
@@ -46,13 +53,13 @@ const Testimonial = () => {
                 >
 
                     <SwiperSlide>
-                        <TestimonialContainer name={"Micheal Gough"} designation={"CEO"} feedback={"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."} />
+                        <TestimonialContainer name={"Mafatlal industries ltd"} designation={""} feedback={"SB Auxi  has been an invaluable partner for my leather goods business. Their dyeing auxiliaries have helped me achieve consistent, high-quality results that have improved the appeal"} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialContainer name={"Micheal Gough"} designation={"CEO"} feedback={"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."} />
+                        <TestimonialContainer name={"Garg acrylics ltd"} designation={""} feedback={"As a sustainability-minded consumer, I appreciate that SB Auxi Chem offers eco-friendly products that meet my ethical standards. Their team is knowledgeable and responsive, and I trust them"} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialContainer name={"Micheal Gough"} designation={"CEO"} feedback={"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."} />
+                        <TestimonialContainer name={"Kumar cottan mills pvt ltd"} designation={""} feedback={"SB Auxi has been a game-changer for my detergent business. Their pretreatment auxiliaries have improved the efficiency and effectiveness of my operations, resulting in cost savings"} />
                     </SwiperSlide>
 
                 </Swiper>
